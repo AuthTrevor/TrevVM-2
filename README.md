@@ -8,7 +8,11 @@
 [![Version]][tag_url]
 [![Size]][tag_url]
 
-</div></h1>
+</div>
+
+<div align="center">
+  <a href="https://github.com/AuthTrevor/TrevVM-2"><img src="https://github.com/AuthTrevor/TrevVM-2/blob/master/images/Untitled.jpeg" title="Logo" style="max-width:100%;" width="96" /></a>
+</h1>
 
 #### TrevVM-2 supports windows now and you can support windows for your Chromebook, laptop, and others so you can access things that appear blocked or heavily-restricted. 
 
