@@ -1,4 +1,4 @@
-<h1 align="center">Windows<br />
+<h1 align="center">TrevVM - Windows Support<br />
 <div align="center">
 <a href="https://github.com/dockur/windows"><img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="96" /></a>
 </div>
@@ -7,12 +7,10 @@
 [![Build]][build_url]
 [![Version]][tag_url]
 [![Size]][tag_url]
-[![Package]][pkg_url]
-[![Pulls]][hub_url]
 
 </div></h1>
 
-Windows inside a Docker container.
+#### TrevVM-2 supports windows now and you can support windows for your Chromebook, laptop, and others so you can access things that appear blocked or heavily-restricted. 
 
 ## Features ✨
 
@@ -22,12 +20,9 @@ Windows inside a Docker container.
 - Near-native performance with KVM acceleration
 - Customizable CPU, memory, and storage allocation
 - Dynamic memory allocation with memory ballooning
-- USB passthrough and host folder sharing
+- Audio support and awesomeness
 - Supports NAT, user-mode, macvlan, and macvtap networking
 
-## Video 📺
-
-[![YouTube](https://img.youtube.com/vi/xhGYobuG508/maxresdefault.jpg)](https://www.youtube.com/watch?v=xhGYobuG508)
 
 ## Usage 🐳
 
@@ -71,9 +66,9 @@ kubectl apply -f https://raw.githubusercontent.com/dockur/windows/refs/heads/mas
 
 For a complete graphical desktop experience, see [WinBoat](https://winboat.app), [WinPodX](https://www.winpodx.org), or [WinApps](https://github.com/winapps-org/winapps). Each of these projects uses this container as its backend.
 
-##### GitHub Codespaces:
+##### GitHub Codespaces Setup:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dockur/windows)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/authtrevor/trevvm-2)
 
 ## Requirements ⚙️
 
@@ -142,8 +137,6 @@ For a complete graphical desktop experience, see [WinBoat](https://winboat.app),
   | `tiny10`  | Tiny10           | 3.6 GB   |
   | `reactos` | ReactOS          | 0.1 GB   |
 
-> [!TIP]
-> To install ARM64 versions of Windows use [dockur/windows-arm](https://github.com/dockur/windows-arm/).
 
 ### How do I change the storage location?
 
@@ -433,13 +426,6 @@ For a complete graphical desktop experience, see [WinBoat](https://winboat.app),
 
   If `kvm-ok` succeeds but the container still reports that KVM is unavailable, you can temporarily add `privileged: true` to your Compose file to rule out a permission or device-access issue.
 
-### How do I run macOS in a container?
-
-  You can use [dockur/macos](https://github.com/dockur/macos) for that. It shares many of the same features, except for the automatic installation.
-
-### How do I run a Linux desktop in a container?
-
-  You can use [qemus/qemu](https://github.com/qemus/qemu) in that case.
 
 ### Is this project legal?
 
@@ -447,8 +433,6 @@ For a complete graphical desktop experience, see [WinBoat](https://winboat.app),
 
   You are responsible for ensuring that you have a valid Windows license and that your use complies with Microsoft's licensing terms.
 
-## Stars 🌟
-[![Stargazers](https://raw.githubusercontent.com/star-stats/stars/refs/heads/data/charts/dockur-windows.svg)](https://github.com/dockur/windows/stargazers)
 
 ## Disclaimer ⚖️
 
