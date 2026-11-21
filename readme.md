@@ -20,8 +20,12 @@
 - Near-native performance with KVM acceleration
 - Customizable CPU, memory, and storage allocation
 - Dynamic memory allocation with memory ballooning
-- Audio support and awesomeness
 - Supports NAT, user-mode, macvlan, and macvtap networking
+- Audio support and awesomeness
+
+##### GitHub Codespaces Setup:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/authtrevor/trevvm-2)
 
 
 ## Usage 🐳
@@ -66,9 +70,6 @@ kubectl apply -f https://raw.githubusercontent.com/dockur/windows/refs/heads/mas
 
 For a complete graphical desktop experience, see [WinBoat](https://winboat.app), [WinPodX](https://www.winpodx.org), or [WinApps](https://github.com/winapps-org/winapps). Each of these projects uses this container as its backend.
 
-##### GitHub Codespaces Setup:
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/authtrevor/trevvm-2)
 
 ## Requirements ⚙️
 
