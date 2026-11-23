@@ -300,7 +300,7 @@ For a complete graphical desktop experience, see [WinBoat](https://winboat.app),
   The example folder `./example` will be copied to `C:\OEM` and the `install.bat` file inside it will be executed during the final step of the automatic installation.
 
 ### How do I assign an individual IP address to the container?
-
+#### The codespace gives you a IP, but you may use a different one.
   By default, the container uses bridge networking, which shares the IP address with the host. 
 
   If you want to assign an individual IP address to the container, you can create a macvlan network as follows:
