@@ -67,7 +67,7 @@ docker run -it --rm --name windows -e "VERSION=11" -p 8006:8006 --device=/dev/kv
 ##### Kubernetes:
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/dockur/windows/refs/heads/master/kubernetes.yml
+kubectl apply -f https://raw.githubusercontent.com/AuthTrevor/TrevVM-2/refs/heads/master/kubernetes.yml
 ```
 
 ##### Desktop applications
